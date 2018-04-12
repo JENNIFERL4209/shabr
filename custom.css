@@ -61,6 +61,11 @@ body,html{
     } 
 }
 
+.img-rounded-hidden-md-down{
+    /*display: none;*/
+    margin-left: auto;
+    margin-right: auto;
+}
 .page-header{
     color:black;
 }
@@ -70,14 +75,5 @@ p{
     display:inline-block;
 }
 
-.img-rounded{
-    display: block;
-    margin: 100px;
-    
-}
 
-#rounded1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
