@@ -1,0 +1,58 @@
+body,html{
+    height:100%;
+}
+
+.container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.intro {
+    height:100%;
+    width:100%;
+    display: table;
+
+     background: linear-gradient(
+        rgba(0,0,100,.5),
+        rgba(0,0,25,0.4)
+      ),
+     url(img/balloon-3.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+
+.center-page{
+    text-align: center;
+    padding:5%;
+    color: white;
+    font-family: 'Slabo', san-serif;
+}
+
+.home{
+    text-align: center;
+    color: red;
+    background:lightblue;
+    font-size:30px;
+
+    
+}
+
+.page-header{
+    color:black;
+}
+
+p{
+    width: 30%;
+    display:inline-block;
+}
+
+.img-rounded{
+    display: inline-block;
+    float:left;
+}
+
+.img-thumbnail{
+    display: inline-block;
+    float:right;
+}
