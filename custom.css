@@ -11,7 +11,6 @@ body,html{
     height:100%;
     width:100%;
     display: table;
-
      background: linear-gradient(
         rgba(0,0,100,.5),
         rgba(0,0,25,0.4)
@@ -20,8 +19,27 @@ body,html{
     background-size: cover;
 
 }
-
-
+ .intro h1{
+     font-size: 30px;
+ }
+ 
+ @media(min-wdith: 768px){
+     .intro h1{
+         font-size: 50px;
+     }
+ }
+ 
+ @media(min-width: 992px){
+     .intro h1{
+         font-size: 70px;
+     }
+ }
+ 
+  @media(min-width: 1200px){
+     .intro h1{
+         font-size: 90px;
+     }
+ }
 .center-page{
     text-align: center;
     padding:5%;
@@ -34,8 +52,19 @@ body,html{
     color: red;
     background:lightblue;
     font-size:30px;
+    font-family: 'Slabo', san-serif;
+}
 
-    
+@media(min-width: 768px){
+    .img-rounded-hidden-md-down{
+        visibility:hidden;
+    } 
+}
+
+@media(min-width: 992px){
+    .img-rounded-hidden-md-down{
+        display:inline-block;
+    } 
 }
 
 .page-header{
@@ -52,7 +81,7 @@ p{
     float:left;
 }
 
-.img-thumbnail{
+#rounded1{
     display: inline-block;
     float:right;
 }
