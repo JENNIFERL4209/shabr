@@ -20,12 +20,12 @@ body,html{
 
 }
  .intro h1{
-     font-size: 30px;
+     font-size: 50px;
  }
  
  @media(min-wdith: 768px){
      .intro h1{
-         font-size: 50px;
+         font-size: 60px;
      }
  }
  
@@ -55,18 +55,17 @@ body,html{
     font-family: 'Slabo', san-serif;
 }
 
-@media(min-width: 768px){
+@media(max-width: 768px){
     .img-rounded-hidden-md-down{
         visibility:hidden;
     } 
 }
 
-@media(min-width: 992px){
-    .img-rounded-hidden-md-down{
-        display:inline-block;
-    } 
+.img-rounded-hidden-md-down{
+    /*display: none;*/
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .page-header{
     color:black;
 }
@@ -76,12 +75,5 @@ p{
     display:inline-block;
 }
 
-.img-rounded{
-    display: inline-block;
-    float:left;
-}
 
-#rounded1{
-    display: inline-block;
-    float:right;
-}
+
