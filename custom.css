@@ -43,7 +43,7 @@ body,html{
 }
 
 .home{
-    height:100%;
+    height:50%;
     width:100%;
     display: table;
     text-align: center;
@@ -53,24 +53,25 @@ body,html{
     font-family: 'Slabo', san-serif;
 }
 
-@media(max-width: 768px){
+@media(max-width: 992px){
     .img-rounded-hidden-md-down{
-        visibility:hidden;
+        display: none;
+        
     } 
 }
-
-.img-rounded-hidden-md-down{
-    /*display: none;*/
-    margin-left: auto;
-    margin-right: auto;
+@media(min-width: 993px){
+    .img-rounded-hidden-md-down{
+    display: inline-block;
 }
+
 .page-header{
     color:black;
 }
 
 .home-content{
-    width: 30%;
+    width: 100%;
     display:inline-block;
+    text-align: center;
 }
 
 .info{
@@ -95,8 +96,6 @@ body,html{
         width:100%;
     }
 }
-
-
 h2{
     color: #FFFF1D;
 }
