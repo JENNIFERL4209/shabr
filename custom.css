@@ -76,18 +76,25 @@ body,html{
 
 .info{
     text-align: center;
-    background: linear-gradient(to top, #33FF61, #337AFF);
     height:100%;
     width:100%;
     display: table;
+    background:url(img/balloon-4.jpg) center;
+    background-size:cover;
+    opacity: 0.6;
+    /*filter: alpha(opacity=30);*/
 }
 
 .info-content{
     width:60%;
-    color:#603232;
+    color:lightgreen;
     font-size:18px;
     font-weight: bold;
     display:inline-block;
+}
+
+#info-color{
+    color:white;
 }
 
 @media(min-width:1200px){
@@ -96,8 +103,9 @@ body,html{
         width:100%;
     }
 }
+
 h2{
-    color: #FFFF1D;
+    color:lightgreen;
 }
 
 .testimonials{
