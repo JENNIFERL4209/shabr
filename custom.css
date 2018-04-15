@@ -2,6 +2,14 @@ body,html{
     height:100%;
 }
 
+.container .row{
+     margin-bottom: 30px;
+      margin-top: 30px;
+      margin-right:0px;
+      margin-left:0px;
+}
+
+
 .intro {
     height:100%;
     width:100%;
@@ -130,16 +138,23 @@ h2{
     font-family: 'Slabo', san-serif;
     font-size: 18px;
 }
+
+#model-pic{
+   width:100%; 
+}
+
 .testimonials h1{
     font-family: 'Black Han Sans', sans-serif;
     color: green;
 }
+
 .reviews{
     width:50%;
     text-align: left;
     padding-left: 15%;
     padding-top: 2%
 }
+
 
 .img-thumbnail{
     float:right;
