@@ -17,7 +17,9 @@ body,html{
  .intro h1{
      font-size: 50px;
  }
- 
+ .home h1{
+     font-family: 'Black Han Sans', sans-serif;
+ }
  @media(min-wdith: 768px){
      .intro h1{
          font-size: 60px;
@@ -47,8 +49,8 @@ body,html{
     width:100%;
     display: table;
     text-align: center;
-    color: red;
-    background:lightblue;
+    color: white;
+    background:#73C2FB;
     font-size:30px;
     font-family: 'Slabo', san-serif;
 }
@@ -63,7 +65,12 @@ body,html{
     .img-rounded-hidden-md-down{
     display: inline-block;
 }
-
+}
+@media(max-wdith: 768px){
+    #img{
+        display: none;
+    }
+}
 .page-header{
     color:black;
 }
@@ -75,22 +82,21 @@ body,html{
 }
 
 .info{
+    font-family: 'Black Han Sans', sans-serif;
     text-align: center;
     height:100%;
     width:100%;
     display: table;
-    background:url(img/balloon-4.jpg) center;
-    background-size:cover;
-    opacity: 0.6;
-    /*filter: alpha(opacity=30);*/
+    background: #6593F5;
+    color: white;
 }
 
 .info-content{
     width:60%;
-    color:lightgreen;
     font-size:18px;
-    font-weight: bold;
+    color: white;
     display:inline-block;
+    font-family: 'Slabo', san-serif;
 }
 
 #info-color{
@@ -103,18 +109,31 @@ body,html{
         width:100%;
     }
 }
+@media(max-width:992px){
+    .info-content{
+        font-size:25px;
+        width:100%;
+    }
+}
 
 h2{
-    color:lightgreen;
+    color:black;
 }
 
 .testimonials{
     height:100%;
     width:100%;
-    display: table ;
+    display: table;
     text-align: center;
+    color: white;
+    background: #89CFF0;
+    font-family: 'Slabo', san-serif;
+    font-size: 18px;
 }
-
+.testimonials h1{
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+}
 .reviews{
     width:50%;
     text-align: left;
@@ -124,11 +143,11 @@ h2{
 
 .img-thumbnail{
     float:right;
-    padding-right: 5%
+    margin: 20px;
 }
 
 .contacts{
   text-align: center;  
-  color:red;
+  color:black;
 }
 
