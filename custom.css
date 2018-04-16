@@ -3,8 +3,8 @@ body,html{
 }
 
 .container .row{
-     margin-bottom: 30px;
-      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-top: 40px;
       margin-right:0px;
       margin-left:0px;
 }
@@ -22,29 +22,33 @@ body,html{
     background-size: cover;
 
 }
+
+.intro h1{
+ font-size: 50px;
+}
+
+.home h1{
+ font-family: 'Black Han Sans', sans-serif;
+}
+
+@media(min-wdith: 768px){
  .intro h1{
-     font-size: 50px;
+     font-size: 60px;
  }
- .home h1{
-     font-family: 'Black Han Sans', sans-serif;
+}
+
+@media(min-width: 992px){
+ .intro h1{
+     font-size: 70px;
  }
- @media(min-wdith: 768px){
-     .intro h1{
-         font-size: 60px;
-     }
+}
+
+@media(min-width: 1200px){
+ .intro h1{
+     font-size: 90px;
  }
- 
- @media(min-width: 992px){
-     .intro h1{
-         font-size: 70px;
-     }
- }
- 
-  @media(min-width: 1200px){
-     .intro h1{
-         font-size: 90px;
-     }
- }
+}
+
 .center-page{
     text-align: center;
     padding:5%;
@@ -53,7 +57,7 @@ body,html{
 }
 
 .home{
-    height:50%;
+    height:60%;
     width:100%;
     display: table;
     text-align: center;
@@ -69,10 +73,12 @@ body,html{
         
     } 
 }
+
 @media(min-width: 993px){
     .img-rounded-hidden-md-down{
     display: inline-block;
 }
+
 }
 @media(max-wdith: 768px){
     #img{
@@ -128,6 +134,24 @@ h2{
     color:lightblue;
 }
 
+.gallery{
+    height:150%;
+    width:100%;
+    display: table inline-block;
+   
+}
+
+
+#gall-pic{
+   margin-top:30px; 
+   
+}
+
+@media(max-width: 1200px){
+    height:100%
+    
+}
+
 .testimonials{
     height:100%;
     width:100%;
@@ -158,7 +182,26 @@ h2{
 
 .img-thumbnail{
     float:right;
-    margin: 20px;
+    margin-left:100px;
+}
+
+
+@media(max-width: 1200px){
+    .img-thumbnail-hidden-md-down{
+    display: inline-block;
+}
+
+@media(max-width:992px){
+    .img-thumbnail{
+        display: none;
+    }
+}
+
+}
+@media(max-width: 768px){
+    .img-thumbnail{
+        display: none;
+    }
 }
 
 .contacts{
